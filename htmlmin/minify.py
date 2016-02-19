@@ -12,7 +12,7 @@ import bs4
 
 from .util import force_text
 
-EXCLUDE_TAGS = set(["pre", "script", "textarea"])
+EXCLUDE_TAGS = set(["pre", "script", "textarea", "noscript"])
 # element list coming from
 # https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list
 # combining text-level semantics & edits
